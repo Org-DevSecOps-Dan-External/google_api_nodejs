@@ -33,9 +33,13 @@ bower_components
 build/Release
 
 # Dependency directories
-#node_modules folder should normally be ignored, but I'm including it for students who forget to run npm install
-# node_modules/
+# node_modules should be ignored
+node_modules
 jspm_packages/
+
+#project-wide
+.DS_Store
+
 
 # TypeScript v1 declaration files
 typings/
